@@ -1,6 +1,4 @@
 #include<stdio.h>
-
-
 void inputarray(int n,int *ar)
 {
 	printf("\nEnter the array:-");
@@ -12,20 +10,13 @@ void inputarray(int n,int *ar)
 main()
 
 {
-
-
-
 int s;
 
 printf("\nEnter lenth of array:-");
 scanf("%d",&s);
 countingarray(s);
 
-
-
 }
-
-
 
 void countingarray(int x)
 {
