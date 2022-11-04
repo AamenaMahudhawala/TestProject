@@ -32,7 +32,7 @@ void countingarray(int x)
 		if(ar[i]==n)
 			c+=1;
 	}
-	printf("The number %d occured %d times.",n,c);
+	printf("The number %d occured %d times",n,c);
 }
 
 
